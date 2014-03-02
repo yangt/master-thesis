@@ -1,3 +1,4 @@
 all:
-	main.tex
+	pdflatex main.tex
+	evince main.pdf &
 
